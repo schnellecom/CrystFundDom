@@ -27,9 +27,20 @@ Persons := [
     Institution := "Chair of Algebra and Representation Theory, RWTH Aachen",
   ),
   rec(
+    FirstNames := "Reymond",
+    LastName := "Akpanya",
+    WWWHome := "https://www.art.rwth-aachen.de/cms/MATHB/Der-Lehrstuhl/Team/Ehemalige/~pdxgg/Reymond-Akpanya/lidx/1/",
+    Email := "akpanya@art.rwth-aachen.de",
+    IsAuthor := true,
+    IsMaintainer := true,
+    #PostalAddress := TODO,
+    Place := "Aachen, Germany",
+    Institution := "Chair of Algebra and Representation Theory, RWTH Aachen",
+  ),
+  rec(
     FirstNames := "Lukas",
-    LastName := "",
-    WWWHome := "lukasschnelle.de",
+    LastName := "Schnelle",
+    WWWHome := "https://lukasschnelle.de",
     Email := "lukas.schnelle1@rwth-aachen.de",
     IsAuthor := true,
     IsMaintainer := true,
@@ -44,7 +55,7 @@ SourceRepository := rec(
     URL := "https://github.com/schnellecom/CrystFundDom",
 ),
 IssueTrackerURL := Concatenation( ~.SourceRepository.URL, "/issues" ),
-PackageWWWHome  := "https://schnellecom.github.io/CrystFundDom/",
+PackageWWWHome  := "https://github.com/schnellecom/CrystFundDom",
 PackageInfoURL  := Concatenation( ~.PackageWWWHome, "PackageInfo.g" ),
 README_URL      := Concatenation( ~.PackageWWWHome, "README.md" ),
 ArchiveURL      := Concatenation( ~.SourceRepository.URL,
@@ -66,8 +77,8 @@ PackageDoc := rec(
 
 Dependencies := rec(
   GAP := ">= 4.13",
-  NeededOtherPackages := [ ],
-  SuggestedOtherPackages := [ ],
+  NeededOtherPackages := [ ["cryst", "4.1.29"], ["polymaking", "0.8.7"] ],
+  SuggestedOtherPackages := [ ["crystcat", "1.1.10"] ],
   ExternalConditions := [ ],
 ),
 
