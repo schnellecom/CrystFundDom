@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This is an automatically generated file. -->
+<TitlePage>
+  <Title>
+    CrystFundDom
+  </Title>
+  <Subtitle>
+    Allows the computation of fundamental domains via Dirichlet cells for given crystallographic group and starting point
+  </Subtitle>
+  <Version>
+    0.1
+  </Version>
+  <Author>
+    Alice C. Niemeyer<Alt Only="LaTeX"><Br/></Alt>
+<Email>alice.niemeyer@art.rwth-aachen.de</Email>
+<Homepage>https://www.math.rwth-aachen.de/~Alice.Niemeyer/</Homepage>
+
+  </Author>
+  <Author>
+    Reymond Akpanya<Alt Only="LaTeX"><Br/></Alt>
+<Email>akpanya@art.rwth-aachen.de</Email>
+<Homepage>https://www.art.rwth-aachen.de/cms/MATHB/Der-Lehrstuhl/Team/Ehemalige/~pdxgg/Reymond-Akpanya/lidx/1/</Homepage>
+
+  </Author>
+  <Author>
+    Lukas Schnelle<Alt Only="LaTeX"><Br/></Alt>
+<Email>lukas.schnelle1@rwth-aachen.de</Email>
+<Homepage>https://lukasschnelle.de</Homepage>
+
+  </Author>
+  <Date>
+    28 July 2025
+  </Date>
+  </TitlePage>

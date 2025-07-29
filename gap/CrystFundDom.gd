@@ -5,11 +5,11 @@
 #! @SectionLabel main
 
 #! The following is a definition of crystallographic groups, which will be used in this package.
-#! Let <Math>\Gamma \leq E(n)</Math> be a subgroup of the Euclidean group of dimension <Math>n</Math> as well as <Math>F \subseteq &&RR;^n</Math> a closed subset. 
+#! Let <Math>\Gamma \leq E(n)</Math> be a subgroup of the Euclidean group of dimension <Math>n</Math> as well as <Math>F \subseteq &RR;^n</Math> a closed subset. 
 #! We call <Math>F</Math> a fundamental domain of <Math>\Gamma</Math> if the following two properties are satisfied:
 
-#! <Display>\bigcup_{\gamma \in \Gamma} F^\gamma = \mathds{R}^n</Display>
-#! and there is a system of representatives <Math>V \subseteq \mathds{R}^n</Math> of the orbits of <Math>\Gamma</Math> on <Math>\mathds{R}^n</Math> such that 
+#! <Display>\bigcup_{\gamma \in \Gamma} F^\gamma = &RR;^n</Display>
+#! and there is a system of representatives <Math>V \subseteq &RR;^n</Math> of the orbits of <Math>\Gamma</Math> on <Math>&RR;^n</Math> such that 
 #! <Display>F^\circ \subseteq V \subseteq F.</Display>
 
 #! Further, if <Math>\Gamma</Math> is a discrete subgroup and there exists a compact fundamental domain for <Math>\Gamma</Math> we call <Math>\Gamma</Math> a <E>crystallographic group</E>.
@@ -32,16 +32,6 @@ DeclareGlobalFunction( "DirichletCellForFiniteWord" );
 #! @EndGroup
 
 #! @ExampleSession
-#! gap> LoadPackage("polymaking");;
-#! ---------------------------------------------------------------------
-#! Loading polymaking 0.8.7 (A package for using polymake in GAP)
-#! by Marc Roeder (roeder.marc@gmail.com).
-#! maintained by:
-#!    Marc Roeder (roeder.marc@gmail.com) and
-#!    The GAP Team (support@gap-system.org).
-#! Homepage: https://gap-packages.github.io/polymaking/
-#! Report issues at https://github.com/gap-packages/polymaking/issues
-#! ----------------------------------------------------------------------
 #! gap> gens := GeneratorsOfGroup(SpaceGroupBBNWZ(3, 195));;
 #! gap> cell := DirichletCellForFiniteWord([1/3,1/4,1/5,1], 4, gens);;
 #! polymake: upgrading /tmp/gaptempdiriN29av/poly2545 from old plain file format
